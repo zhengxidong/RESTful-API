@@ -1,0 +1,1 @@
+rewrite ^/parkingmeter/v1/([a-z]+)$ /$1/index.php?$query_string last;
