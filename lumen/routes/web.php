@@ -17,7 +17,7 @@ $api->version('v1', ['namespace' => 'App\Http\Controllers\V1'], function($api){
     $api->get('test', function(){
         return 'hi Evan';
     });
-    $api->get('car', 'CarController@index');
+    $api->get('article', 'ArticleController@index');
 });
 #$app->get('/', function () use ($app) {
 #    return $app->version();
